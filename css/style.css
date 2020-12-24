@@ -102,3 +102,9 @@ hr {
 .mobile.mcmurry {
   background-image: url('../img/mcmurry_mobile.jpg');
 }
+.desktop.graphs {
+  background-image: url('../img/graphs.jpg');
+}
+.mobile.graphs {
+  background-image: url('../img/graph_mobile.jpg');
+}

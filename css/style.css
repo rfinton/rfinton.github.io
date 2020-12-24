@@ -10,6 +10,9 @@ hr {
 }
 #profile {
   background-color: #eae6e6;
+  height: 100vh;
+  padding-bottom: 2em;
+  overflow-y: scroll;
 }
 #profile > h2 {
   text-align: center;
@@ -32,6 +35,9 @@ hr {
   margin-left: 30px;
   display: flex;
   flex-direction: column;
+  height: 100vh;
+  padding-bottom: 2em;
+  overflow-y: scroll;
 }
 #projects > h1 {
   line-height: 2em;
@@ -50,7 +56,7 @@ hr {
 }
 .screenshot .desktop {
   width: 88%;
-  background-position: 50% -9%;
+  background-position: 50% 16px;
   background-size: 93%;
   background-repeat: no-repeat;
 }
@@ -59,7 +65,7 @@ hr {
   bottom: 0;
   right: 0;
   width: 20%;
-  background-position: 51% -1%;
+  background-position: 51% 5px;
   background-size: 88%;
   background-repeat: no-repeat;
 }
@@ -83,4 +89,16 @@ hr {
 }
 .mobile.piedmont {
   background-image: url('../img/piedmont_mobile.png');
+}
+.desktop.newbirthtabernacle {
+  background-image: url('../img/newbirthtabernacle.jpg');
+}
+.mobile.newbirthtabernacle {
+  background-image: url('../img/newbirthtabernacle_mobile.jpg');
+}
+.desktop.mcmurry {
+  background-image: url('../img/mcmurry.jpg');
+}
+.mobile.mcmurry {
+  background-image: url('../img/mcmurry_mobile.jpg');
 }

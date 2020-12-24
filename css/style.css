@@ -1,0 +1,86 @@
+body {
+  background-image: url();
+}
+main {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+}
+hr {
+  width: 100%;
+}
+#profile {
+  background-color: #eae6e6;
+}
+#profile > h2 {
+  text-align: center;
+  line-height: 2;
+  background-color: gray;
+  color: #fff;
+}
+#profile #contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#profile > .container > div {
+  margin-top: 1em;
+}
+#profile legend {
+  text-align: center;
+}
+#projects {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+}
+#projects > h1 {
+  line-height: 2em;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+#projects section {
+  margin-top: 2em;
+  display: flex;
+  padding-right: 30px;
+}
+#projects section > div {
+  flex: 1;
+}
+.screenshot {
+  position: relative;
+}
+.screenshot .desktop {
+  width: 88%;
+  background-position: 50% -9%;
+  background-size: 93%;
+  background-repeat: no-repeat;
+}
+.screenshot .mobile {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 20%;
+  background-position: 51% -1%;
+  background-size: 88%;
+  background-repeat: no-repeat;
+}
+.screenshot .desktop img,
+.screenshot .mobile img {
+  width: 100%;
+}
+.project-info {
+  margin-left: 15px;
+}
+
+
+.desktop.okwu {
+  background-image: url('../img/okwu.png');
+}
+.mobile.okwu {
+  background-image: url('../img/okwu_mobile.png');
+}
+.desktop.piedmont {
+  background-image: url('../img/piedmont.png');
+}
+.mobile.piedmont {
+  background-image: url('../img/piedmont_mobile.png');
+}
